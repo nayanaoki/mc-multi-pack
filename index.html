@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>マルチ参加の手順</title>
+<style>
+:root {
+  --bg: #f6f5f2; --card: #ffffff; --text: #1f2328; --muted: #5d6470; --line: #e3e1dc;
+  --accent: #2f6f4f; --accent-soft: #e6f0ea; --code: #f0efeb; --warn: #8a5a00; --warn-soft: #fbf1dc;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a; --card: #1d2024; --text: #e6e6e3; --muted: #a2a8b0; --line: #30343a;
+    --accent: #7cc49b; --accent-soft: #1f2e26; --code: #262a2f; --warn: #f0c26a; --warn-soft: #2e2716;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font-family: "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif; line-height: 1.75; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+.lead { color: var(--muted); margin: 0 0 28px; }
+.summary { background: var(--accent-soft); border-radius: 10px; padding: 14px 18px; margin-bottom: 28px; }
+.summary ol { margin: 6px 0 0; padding-left: 1.3em; }
+section.step { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin: 0 0 16px; }
+.step h2 { font-size: 1.1rem; margin: 0 0 8px; display: flex; gap: 10px; align-items: baseline; }
+.num { flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--card);
+  display: inline-flex; align-items: center; justify-content: center; font-size: .9rem; font-weight: 700; }
+.step p, .step li { margin: 4px 0; }
+.step ol, .step ul { padding-left: 1.3em; margin: 6px 0; }
+a { color: var(--accent); }
+code { background: var(--code); border-radius: 4px; padding: 1px 5px; font-size: .92em; word-break: break-all; }
+.cmd { display: flex; gap: 8px; align-items: stretch; margin: 10px 0 4px; }
+.cmd pre { flex: 1; margin: 0; background: var(--code); border-radius: 8px; padding: 10px 12px; overflow-x: auto;
+  font-size: .85rem; white-space: pre-wrap; word-break: break-all; }
+.cmd button { flex: none; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 8px;
+  padding: 0 14px; cursor: pointer; font: inherit; font-size: .9rem; }
+.cmd button:hover { border-color: var(--accent); }
+.note { background: var(--warn-soft); color: var(--text); border-left: 4px solid var(--warn); border-radius: 6px; padding: 10px 14px; margin: 10px 0 0; font-size: .95rem; }
+.muted { color: var(--muted); font-size: .92rem; }
+footer { color: var(--muted); font-size: .85rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>マルチに参加する手順</h1>
+  <p class="lead">Minecraft Java版 26.3 ＋ MOD のサーバーです。最初に1回だけ設定すれば、あとは起動するだけでMODが自動で最新になります。</p>
+
+  <div class="summary">
+    <strong>全体の流れ（15分ほど）</strong>
+    <ol>
+      <li>主催者にマイクラのユーザー名を伝える</li>
+      <li>Prism Launcher を入れる</li>
+      <li>26.3 ＋ NeoForge のインスタンスを作る</li>
+      <li>自動更新の仕組みを入れる</li>
+      <li>起動してサーバーに入る</li>
+    </ol>
+  </div>
+
+  <section class="step">
+    <h2><span class="num">1</span>主催者にユーザー名を伝える</h2>
+    <p>このサーバーは登録した人だけが入れます。Minecraft Java版の<strong>ユーザー名</strong>（ゲーム内の名前）を主催者に送ってください。登録が終わったら、サーバーのアドレスを教えてもらえます。</p>
+    <p class="muted">Minecraft Java版を持っていることが必要です（統合版・スマホ版では入れません）。</p>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">2</span>Prism Launcher を入れる</h2>
+    <ol>
+      <li><a href="https://prismlauncher.org/download/" target="_blank" rel="noopener">prismlauncher.org</a> から、自分のPC（Windows / Mac）用をダウンロードして入れる。</li>
+      <li>起動したら、右上の「アカウント」から <strong>Microsoft アカウント</strong>でログインする（いつもマイクラで使っているもの）。</li>
+    </ol>
+    <p class="muted">いつもの公式ランチャーはそのまま使えます。Prism Launcher は別に入るので、今のワールドには影響しません。</p>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">3</span>インスタンスを作る</h2>
+    <ol>
+      <li>左上の「インスタンスを追加」を押す。</li>
+      <li>バージョンの一覧から <strong>26.3</strong> を選ぶ。</li>
+      <li>下の「Mod ローダー」で <strong>NeoForge</strong> を選び、<strong>26.3.0.101</strong> を選ぶ。</li>
+      <li>名前は自由（例: <code>マルチ26.3</code>）。「OK」で作る。</li>
+    </ol>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">4</span>自動更新の仕組みを入れる</h2>
+    <ol>
+      <li><a href="https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest" target="_blank" rel="noopener">このページ</a>から <code>packwiz-installer-bootstrap.jar</code> をダウンロードする。</li>
+      <li>Prism Launcher で、作ったインスタンスを右クリック →「フォルダーを開く」。</li>
+      <li>開いたフォルダの中の <code>minecraft</code> フォルダ（見当たらなければ <code>.minecraft</code>）に、ダウンロードした jar を入れる。</li>
+      <li>インスタンスを右クリック →「編集」→ 左の「設定」→ 上の「カスタムコマンド」タブを開く。</li>
+      <li>「カスタムコマンド」にチェックを入れ、<strong>起動前コマンド</strong>の欄に、次の1行をそのまま貼る。</li>
+    </ol>
+    <div class="cmd">
+      <pre id="cmd">"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://nayanaoki.github.io/mc-multi-pack/pack.toml</pre>
+      <button type="button" id="copy">コピー</button>
+    </div>
+    <p class="muted">この1行で、起動するたびに主催者が配っているMODと同じものがそろいます。</p>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">5</span>起動してサーバーに入る</h2>
+    <ol>
+      <li>インスタンスをダブルクリックして起動する。最初だけ、MODをダウンロードする小さな画面が出ます（16個）。</li>
+      <li>タイトル画面で「マルチプレイ」→「サーバーを追加」→ 主催者から聞いたアドレスを入れて接続する。</li>
+    </ol>
+    <div class="note">メモリが足りずに落ちるときは、インスタンスの「編集」→「設定」→「Java」で、最大メモリを 4096MB くらいにしてください。</div>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">6</span>2回目から</h2>
+    <p>Prism Launcher でインスタンスを起動するだけです。主催者がMODを更新していれば、起動のときに自動で入れ替わります。自分で何かを入れ直す必要はありません。</p>
+  </section>
+
+  <section class="step">
+    <h2>うまくいかないとき</h2>
+    <ul>
+      <li><strong>「MODが合わない」と言われて入れない</strong>: 一度ゲームを閉じて、もう一度起動してください（起動のときに最新になります）。</li>
+      <li><strong>ホワイトリストに入っていないと出る</strong>: ユーザー名がまだ登録されていません。主催者に連絡してください。</li>
+      <li><strong>起動前コマンドでエラーが出る</strong>: jar を置いた場所（手順4の3）と、貼った1行に抜けがないかを確かめてください。</li>
+      <li><strong>26.3 や NeoForge が一覧に出ない</strong>: Prism Launcher を最新版に更新してください。</li>
+    </ul>
+  </section>
+
+  <footer>Minecraft 26.3 / NeoForge 26.3.0.101 ・ MOD 16個（すべて主催者の自作）</footer>
+</main>
+<script>
+document.getElementById('copy').addEventListener('click', async function () {
+  var text = document.getElementById('cmd').textContent;
+  try { await navigator.clipboard.writeText(text); this.textContent = 'コピーした'; }
+  catch (e) { this.textContent = '選んでコピー'; }
+  var b = this; setTimeout(function () { b.textContent = 'コピー'; }, 2000);
+});
+</script>
+</body>
+</html>
