@@ -17,12 +17,12 @@ file = "mods/dirtfiller-0.2.1.jar"
 hash = "9698e5aa1d3a7b8a0535b465eacaf84a5f2dc4fbec748f1828621c26ee0034df"
 
 [[files]]
-file = "mods/enchantinginfuser-1.0.0.jar"
-hash = "8800397625403fbc057a771beaa4efc39bf12898e02b8076f2f408f870d11ab0"
+file = "mods/enchantinginfuser-1.1.0.jar"
+hash = "a1f05e077dcc54430dde396e575d03a97c676bc76a892fe35698591171dacea5"
 
 [[files]]
-file = "mods/gearleveling-1.0.0.jar"
-hash = "5a2d1c88066bc2d7fd573617a402fc267fce2ca9a910f59fa565a571f72745a3"
+file = "mods/gearleveling-1.2.0.jar"
+hash = "ff3f521dea22940892cbe9d0b1eceab20b743876c0ddf8aeac3554ee6aee2b8f"
 
 [[files]]
 file = "mods/gearvault-0.1.0.jar"
@@ -37,8 +37,8 @@ file = "mods/infinitebucket-0.1.0.jar"
 hash = "1770c6cfb9c1a8280c67c4b60579d1fc9ce1c3b9aa485721b79409721eb4b312"
 
 [[files]]
-file = "mods/magicblade-1.0.0.jar"
-hash = "9f729c092eefd42b35eb37bd1abe6218a948b310de5e97705e0bfec544a82996"
+file = "mods/magicblade-1.1.0.jar"
+hash = "c9c8b7df9efed39f09dc45db4ecf429143857eea8a58259ed717547a76fe7176"
 
 [[files]]
 file = "mods/magmatrash-0.1.0.jar"
@@ -49,12 +49,12 @@ file = "mods/mininggrowth-0.2.0.jar"
 hash = "65d8bd51677d4e12701fcfd6485c0b8f5d1825e3459128ee0786ffea34fc0df7"
 
 [[files]]
-file = "mods/mobfarms-1.0.1.jar"
-hash = "c083df768e2002fbbe5b1fd059ad4431130fc15bc039e0bdc6beaa067d63d3a1"
+file = "mods/mobfarms-1.1.0.jar"
+hash = "e4f1f8ddadfec00b2bc978274fb375da1e8dcc1be2251e8d00354068d78a43d6"
 
 [[files]]
-file = "mods/oneleveling-0.7.1.jar"
-hash = "196f988d48b03e1da7b9cb7fa03420a7961db8dc9435e0a977629bb177e61376"
+file = "mods/oneleveling-0.8.0.jar"
+hash = "12765a5a0ecb292debfa82434ae8574a97d68571352b6791578359e8daa17f7f"
 
 [[files]]
 file = "mods/simplehome-1.0.0.jar"
