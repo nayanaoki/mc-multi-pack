@@ -5,8 +5,8 @@ file = "mods/biggerbag-0.3.1.jar"
 hash = "fe9ddd0027ac28035c4a98b2494a2b594fbe67e69c4f7cb6de3571daf5b0bdcc"
 
 [[files]]
-file = "mods/bulkstorage-0.4.0.jar"
-hash = "db02200542e3b204c4014100d5351c9fa17158dc72c6bede88ead6263b6f6983"
+file = "mods/bulkstorage-0.5.0.jar"
+hash = "017555a92207af9cbc89e9ed0fae4b4ded080737453036b30f11c45d1398d3e0"
 
 [[files]]
 file = "mods/deathguide-0.2.0.jar"
