@@ -60,7 +60,7 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 32px; }
 
   <section class="step">
     <h2><span class="num">1</span>主催者にユーザー名を伝える</h2>
-    <p>このサーバーは登録した人だけが入れます。Minecraft Java版の<strong>ユーザー名</strong>（ゲーム内の名前）を主催者に送ってください。登録が終わったら、サーバーのアドレスを教えてもらえます。</p>
+    <p>このサーバーは登録した人だけが入れます。Minecraft Java版の<strong>ユーザー名</strong>（ゲーム内の名前）を主催者に送ってください。登録が終わると入れるようになります。</p>
     <p class="muted">Minecraft Java版を持っていることが必要です（統合版・スマホ版では入れません）。</p>
   </section>
 
@@ -104,8 +104,13 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 32px; }
     <ol>
       <li>インスタンスをダブルクリックして起動する。最初だけ、MODをダウンロードする小さな画面が出ます（17個）。</li>
       <li>ゲームは日本語で起動します。英語のままのときは、タイトル画面の地球のボタン（言語）から「日本語」を選んでください（手順4より前に一度起動していた場合など）。</li>
-      <li>タイトル画面で「マルチプレイ」→「サーバーを追加」→ 主催者から聞いたアドレスを入れて接続する。</li>
+      <li>タイトル画面で「マルチプレイ」→「サーバーを追加」→「サーバーアドレス」に次のアドレスを入れて接続する（ポート番号は不要）。</li>
     </ol>
+    <div class="cmd">
+      <pre id="addr">jensen-jared.tun.ply.gg</pre>
+      <button type="button" id="copy-addr">コピー</button>
+    </div>
+    <p class="muted">主催者のPCでサーバーが動いている間だけ入れます。つながらないときは主催者に声をかけてください。</p>
     <div class="note">メモリが足りずに落ちるときは、インスタンスの「編集」→「設定」→「Java」で、最大メモリを 4096MB くらいにしてください。</div>
   </section>
 
@@ -127,11 +132,13 @@ footer { color: var(--muted); font-size: .85rem; margin-top: 32px; }
   <footer>Minecraft 26.3 / NeoForge 26.3.0.101 ・ MOD 17個（すべて主催者の自作）</footer>
 </main>
 <script>
-document.getElementById('copy').addEventListener('click', async function () {
-  var text = document.getElementById('cmd').textContent;
-  try { await navigator.clipboard.writeText(text); this.textContent = 'コピーした'; }
-  catch (e) { this.textContent = '選んでコピー'; }
-  var b = this; setTimeout(function () { b.textContent = 'コピー'; }, 2000);
+[['copy', 'cmd'], ['copy-addr', 'addr']].forEach(function (pair) {
+  document.getElementById(pair[0]).addEventListener('click', async function () {
+    var text = document.getElementById(pair[1]).textContent;
+    try { await navigator.clipboard.writeText(text); this.textContent = 'コピーした'; }
+    catch (e) { this.textContent = '選んでコピー'; }
+    var b = this; setTimeout(function () { b.textContent = 'コピー'; }, 2000);
+  });
 });
 </script>
 </body>
