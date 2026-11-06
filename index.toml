@@ -37,6 +37,10 @@ file = "mods/infinitebucket-0.1.0.jar"
 hash = "1770c6cfb9c1a8280c67c4b60579d1fc9ce1c3b9aa485721b79409721eb4b312"
 
 [[files]]
+file = "mods/magicblade-1.0.0.jar"
+hash = "9f729c092eefd42b35eb37bd1abe6218a948b310de5e97705e0bfec544a82996"
+
+[[files]]
 file = "mods/magmatrash-0.1.0.jar"
 hash = "ce46c6e0e1cab137f2886e44fc7abcb9e806d2efddb9aa15526abff66da7883b"
 
