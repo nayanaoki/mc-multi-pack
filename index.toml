@@ -1,0 +1,65 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/biggerbag-0.3.1.jar"
+hash = "fe9ddd0027ac28035c4a98b2494a2b594fbe67e69c4f7cb6de3571daf5b0bdcc"
+
+[[files]]
+file = "mods/bulkstorage-0.4.0.jar"
+hash = "db02200542e3b204c4014100d5351c9fa17158dc72c6bede88ead6263b6f6983"
+
+[[files]]
+file = "mods/deathguide-0.2.0.jar"
+hash = "fb31a2020e031d7124b4534e51076744d4835c176ff3b104e4b4c611648e436e"
+
+[[files]]
+file = "mods/dirtfiller-0.2.0.jar"
+hash = "9c09b8ea37e55ed512489409107f413b3d086e4dec5963793f217f00e439cee2"
+
+[[files]]
+file = "mods/enchantinginfuser-1.0.0.jar"
+hash = "8800397625403fbc057a771beaa4efc39bf12898e02b8076f2f408f870d11ab0"
+
+[[files]]
+file = "mods/gearleveling-1.0.0.jar"
+hash = "5a2d1c88066bc2d7fd573617a402fc267fce2ca9a910f59fa565a571f72745a3"
+
+[[files]]
+file = "mods/gearvault-0.1.0.jar"
+hash = "b1cff7733f39699d14c09a79fe992b7e71c571a9e5a601fe74a29f18673c0cf4"
+
+[[files]]
+file = "mods/glimmerstone-0.4.0.jar"
+hash = "b4dc98a97ff8992aba3520e65861891777c75538785a8bbdf6a730e1c2f5dc2a"
+
+[[files]]
+file = "mods/infinitebucket-0.1.0.jar"
+hash = "1770c6cfb9c1a8280c67c4b60579d1fc9ce1c3b9aa485721b79409721eb4b312"
+
+[[files]]
+file = "mods/magmatrash-0.1.0.jar"
+hash = "ce46c6e0e1cab137f2886e44fc7abcb9e806d2efddb9aa15526abff66da7883b"
+
+[[files]]
+file = "mods/mininggrowth-0.2.0.jar"
+hash = "65d8bd51677d4e12701fcfd6485c0b8f5d1825e3459128ee0786ffea34fc0df7"
+
+[[files]]
+file = "mods/mobfarms-1.0.0.jar"
+hash = "743bbf392e4511010ac8f91295c626e5008d05be59abc120fdbdd12834425bb5"
+
+[[files]]
+file = "mods/oneleveling-0.7.0.jar"
+hash = "c389ed0e23225082e7df8a0812677d7f275a988c82c54affbaa1865cc2afdcef"
+
+[[files]]
+file = "mods/simplehome-1.0.0.jar"
+hash = "af39988baa73a9e01e7755d14d4adb15546260d3c5825592e8bc998fc74f10b5"
+
+[[files]]
+file = "mods/stack1000-0.1.0.jar"
+hash = "c74bba808b3e6938033ea0d2e9f05bb2155827d8f8cb99a0d80f4891e3938625"
+
+[[files]]
+file = "mods/xpfood-0.1.0.jar"
+hash = "b16c0356352be424049180de0a96b55e1e0073c855b5de4c92548fd5fbc77417"

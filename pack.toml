@@ -1,0 +1,11 @@
+name = "Mod Server 26.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "520dd5c70d17d01d8ad65dd9f63e33bf10f7ed569ff491ae61d549e6a6b3dc2f"
+
+[versions]
+minecraft = "26.3"
+neoforge = "26.3.0.101"
