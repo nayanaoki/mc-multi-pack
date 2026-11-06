@@ -61,5 +61,9 @@ file = "mods/stack1000-0.1.0.jar"
 hash = "c74bba808b3e6938033ea0d2e9f05bb2155827d8f8cb99a0d80f4891e3938625"
 
 [[files]]
+file = "mods/treefeller-1.0.0.jar"
+hash = "102266564ae9bd21970e626f7fe7acf2cf4ca5edc03e8eb5652bc6a544974860"
+
+[[files]]
 file = "mods/xpfood-0.1.0.jar"
 hash = "b16c0356352be424049180de0a96b55e1e0073c855b5de4c92548fd5fbc77417"
