@@ -67,3 +67,8 @@ hash = "102266564ae9bd21970e626f7fe7acf2cf4ca5edc03e8eb5652bc6a544974860"
 [[files]]
 file = "mods/xpfood-0.1.0.jar"
 hash = "b16c0356352be424049180de0a96b55e1e0073c855b5de4c92548fd5fbc77417"
+
+[[files]]
+file = "options.txt"
+hash = "d6fcef5bd6105b35686b28cacde02537d3ea89eaa620b8b70ea7c1404d6bd0ad"
+preserve = true
