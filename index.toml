@@ -49,8 +49,8 @@ file = "mods/mininggrowth-0.2.0.jar"
 hash = "65d8bd51677d4e12701fcfd6485c0b8f5d1825e3459128ee0786ffea34fc0df7"
 
 [[files]]
-file = "mods/mobfarms-1.1.0.jar"
-hash = "e4f1f8ddadfec00b2bc978274fb375da1e8dcc1be2251e8d00354068d78a43d6"
+file = "mods/mobfarms-1.2.0.jar"
+hash = "e8d5f24d86da62b242489880308736d4959e65b254eb179c8492cd256fa984e4"
 
 [[files]]
 file = "mods/oneleveling-0.8.0.jar"
