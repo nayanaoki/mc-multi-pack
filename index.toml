@@ -5,8 +5,8 @@ file = "mods/biggerbag-0.3.1.jar"
 hash = "fe9ddd0027ac28035c4a98b2494a2b594fbe67e69c4f7cb6de3571daf5b0bdcc"
 
 [[files]]
-file = "mods/bulkstorage-0.5.0.jar"
-hash = "017555a92207af9cbc89e9ed0fae4b4ded080737453036b30f11c45d1398d3e0"
+file = "mods/bulkstorage-0.5.1.jar"
+hash = "099acc9a45edcf9a0670dd444fcbeb5209884b9e8cf6c77d527e7afc3c63ba24"
 
 [[files]]
 file = "mods/deathguide-0.2.0.jar"
@@ -33,8 +33,8 @@ file = "mods/glimmerstone-0.4.0.jar"
 hash = "b4dc98a97ff8992aba3520e65861891777c75538785a8bbdf6a730e1c2f5dc2a"
 
 [[files]]
-file = "mods/infinitebucket-0.1.0.jar"
-hash = "1770c6cfb9c1a8280c67c4b60579d1fc9ce1c3b9aa485721b79409721eb4b312"
+file = "mods/infinitebucket-0.1.1.jar"
+hash = "96ca13d25cd7aa8841b1860bb7633e79d1006a0ef8cdb688fd137264cc336a3b"
 
 [[files]]
 file = "mods/magicblade-1.1.0.jar"
