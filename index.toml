@@ -25,8 +25,8 @@ file = "mods/gearleveling-1.2.0.jar"
 hash = "ff3f521dea22940892cbe9d0b1eceab20b743876c0ddf8aeac3554ee6aee2b8f"
 
 [[files]]
-file = "mods/gearvault-0.3.0.jar"
-hash = "927f7839c33f0d8db93d432866e5457e5f259a494d963a7a7af05d20771045c3"
+file = "mods/gearvault-0.4.0.jar"
+hash = "95436d01dbb83765f1e24bbeb4c1125c2a730121b5617fa75926333951994d6a"
 
 [[files]]
 file = "mods/glimmerstone-0.4.0.jar"
@@ -49,12 +49,12 @@ file = "mods/mininggrowth-0.2.0.jar"
 hash = "65d8bd51677d4e12701fcfd6485c0b8f5d1825e3459128ee0786ffea34fc0df7"
 
 [[files]]
-file = "mods/mobfarms-1.5.0.jar"
-hash = "d85f1209a274ce32b9988a66f443048f8a3b6f44dfa4475395c1b4c6b0f77f11"
+file = "mods/mobfarms-1.7.0.jar"
+hash = "83c4f08f6b91ef505118ddff6a56ef5fb5f096e76b8a470e87c713ffe23dc6d1"
 
 [[files]]
-file = "mods/oneleveling-0.8.0.jar"
-hash = "12765a5a0ecb292debfa82434ae8574a97d68571352b6791578359e8daa17f7f"
+file = "mods/oneleveling-0.9.0.jar"
+hash = "ae7a5cf79cce0acb9b1484ae11494dc2d311a98e000d24f769d88900144f2478"
 
 [[files]]
 file = "mods/simplehome-1.0.0.jar"
