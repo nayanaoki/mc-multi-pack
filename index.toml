@@ -17,16 +17,16 @@ file = "mods/dirtfiller-0.2.1.jar"
 hash = "9698e5aa1d3a7b8a0535b465eacaf84a5f2dc4fbec748f1828621c26ee0034df"
 
 [[files]]
-file = "mods/enchantinginfuser-1.1.0.jar"
-hash = "a1f05e077dcc54430dde396e575d03a97c676bc76a892fe35698591171dacea5"
+file = "mods/enchantinginfuser-1.2.0.jar"
+hash = "2c13c5ad996456aea32ade65c0cc95ca978b7a2e42f6dea863a478ce4d311eca"
 
 [[files]]
 file = "mods/gearleveling-1.2.0.jar"
 hash = "ff3f521dea22940892cbe9d0b1eceab20b743876c0ddf8aeac3554ee6aee2b8f"
 
 [[files]]
-file = "mods/gearvault-0.2.0.jar"
-hash = "68b6a664db9c2e8b8d9b201e7524d59ad0b773f53ae538e4c2f52be4c63b4aaa"
+file = "mods/gearvault-0.3.0.jar"
+hash = "927f7839c33f0d8db93d432866e5457e5f259a494d963a7a7af05d20771045c3"
 
 [[files]]
 file = "mods/glimmerstone-0.4.0.jar"
@@ -49,8 +49,8 @@ file = "mods/mininggrowth-0.2.0.jar"
 hash = "65d8bd51677d4e12701fcfd6485c0b8f5d1825e3459128ee0786ffea34fc0df7"
 
 [[files]]
-file = "mods/mobfarms-1.3.0.jar"
-hash = "e5871043b39adc7a4264c0ecc16e4897eacd22e6453aed8d8c16a2809c31d2a2"
+file = "mods/mobfarms-1.4.0.jar"
+hash = "72691456731c197cfdd9f1e9754d560222f7fa85184bcb854cec6cc575ef559d"
 
 [[files]]
 file = "mods/oneleveling-0.8.0.jar"
