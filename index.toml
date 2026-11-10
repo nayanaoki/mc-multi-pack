@@ -21,8 +21,12 @@ file = "mods/enchantinginfuser-1.2.0.jar"
 hash = "2c13c5ad996456aea32ade65c0cc95ca978b7a2e42f6dea863a478ce4d311eca"
 
 [[files]]
-file = "mods/gearleveling-1.2.0.jar"
-hash = "ff3f521dea22940892cbe9d0b1eceab20b743876c0ddf8aeac3554ee6aee2b8f"
+file = "mods/firearms-1.0.0.jar"
+hash = "3c2d82f764652d6d9a603671c8f1a6c6272e67a4e2f3db9d212bb36adac7e6b6"
+
+[[files]]
+file = "mods/gearleveling-1.3.0.jar"
+hash = "3af3154f63c83822a968d42faffefe1e04fbf1db137aada00fdbb0d724fc709f"
 
 [[files]]
 file = "mods/gearvault-0.4.0.jar"
@@ -31,6 +35,10 @@ hash = "95436d01dbb83765f1e24bbeb4c1125c2a730121b5617fa75926333951994d6a"
 [[files]]
 file = "mods/glimmerstone-0.4.0.jar"
 hash = "b4dc98a97ff8992aba3520e65861891777c75538785a8bbdf6a730e1c2f5dc2a"
+
+[[files]]
+file = "mods/huntgrounds-1.0.0.jar"
+hash = "ecb5562bd2e73d49ff29289563859c8115b3be8c322090082d828e302eb03182"
 
 [[files]]
 file = "mods/infinitebucket-0.1.1.jar"
